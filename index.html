@@ -8,25 +8,63 @@
         padding: 10px;
       }
     </style>
+    <script>
+      function f1() {
+        document.body.style.background = "Black";
+        document.body.style.color = "White";
+        document.getElementById("DarkModeON").style.display = "block";
+        document.getElementById("DarkModeOFF").style.display = "none";
+        document.getElementById("D1").style.display = "block";
+        document.getElementById("D0").style.display = "none";
+      }
+      function f2() {
+        document.body.style.background = "White";
+        document.body.style.color = "Black";
+        document.getElementById("DarkModeOFF").style.display = "block";
+        document.getElementById("DarkModeON").style.display = "none";
+        document.getElementById("D0").style.display = "block";
+        document.getElementById("D1").style.display = "none";
+      }
+    </script>
   </head>
   <body>
-    <center><table>
-      <tr>
-        <img src="Logo.png">
-      </tr>
-      <tr>
-        <td align="Left"><fieldset> <legend>Google</legend>
-          <form action="https://www.google.com/search" method="GET" name="f">
-            <input type="text" name="q" />
-            <input type="submit" value="Search...!" />
-          </form>
-        </fieldset></td>
-        <td align="Right"><fieldset> <legend>DuckDuckGo</legend>
-          <form name="x" method="GET" action="https://duckduckgo.com/">
-            <input type="text" name="q" />
-            <input type="submit" value="Search...!" />
-          </form>
-        </fieldset></td>
-      </tr>
-    </></center>
+    <center>
+      <table>
+        <tr>
+          <img src="Logo.png" id="DarkModeOFF" style="display: block;" />
+          <img src="LogoD.png" id="DarkModeON" style="display: none;" />
+        </tr>
+        <tr>
+          <td align="Left">
+            <fieldset>
+              <legend>Google</legend>
+              <form
+                action="https://www.google.com/search"
+                method="GET"
+                name="f"
+              >
+                <input type="text" name="q" />
+                <input type="submit" value="Search...!" />
+              </form>
+            </fieldset>
+          </td>
+          <td align="Right">
+            <fieldset>
+              <legend>DuckDuckGo</legend>
+              <form name="x" method="GET" action="https://duckduckgo.com/">
+                <input type="text" name="q" />
+                <input type="submit" value="Search...!" />
+              </form>
+            </fieldset>
+          </td>
+        </tr>
+      </table>
+      <button type="button" onclick="f1()" id="D0" style="display: block;">
+        Enable Dark Mode
+      </button>
+      <button type="button" onclick="f2()" id="D1" style="display: none;">
+        Disable Dark Mode
+      </button>
+    </center>
+  </body>
 </html>
