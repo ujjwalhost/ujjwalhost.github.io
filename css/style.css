@@ -20,7 +20,7 @@ h1 {
     color: #4ab19a;
     font-family: 'Sacramento', cursive;
     font-size: 100px;
-    margin: 0px;
+    margin: 1.25rem;
 }
 h2, h3 {
     color: #11999E;
@@ -51,6 +51,7 @@ a {
 .sub_heading1 {
     color: #4ab19a;
     font-size: 20px;
+    font-weight: normal;
 }
 .cloud_top {
     position: relative;
@@ -60,8 +61,11 @@ a {
     position: absolute;
     left: 20%;
 }
-.skills-table {
+table {
     border: solid;
+    border-radius: 20px;
+    border-color: #11999E;
+    text-align: center;
 }
 .edu {
     text-align: justify;
