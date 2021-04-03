@@ -1,70 +1,117 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Adarsh : Search</title>
-    <style>
-      th,
-      td {
-        padding: 10px;
-      }
-    </style>
-    <script>
-      function f1() {
-        document.body.style.background = "Black";
-        document.body.style.color = "White";
-        document.getElementById("DarkModeON").style.display = "block";
-        document.getElementById("DarkModeOFF").style.display = "none";
-        document.getElementById("D1").style.display = "block";
-        document.getElementById("D0").style.display = "none";
-      }
-      function f2() {
-        document.body.style.background = "White";
-        document.body.style.color = "Black";
-        document.getElementById("DarkModeOFF").style.display = "block";
-        document.getElementById("DarkModeON").style.display = "none";
-        document.getElementById("D0").style.display = "block";
-        document.getElementById("D1").style.display = "none";
-      }
-    </script>
-  </head>
-  <body>
-    <center>
-      <table>
-        <tr>
-          <img src="Logo.png" id="DarkModeOFF" style="display: block;" />
-          <img src="LogoD.png" id="DarkModeON" style="display: none;" />
-        </tr>
-        <tr>
-          <td align="Left">
-            <fieldset>
-              <legend>Google</legend>
-              <form
-                action="https://www.google.com/search"
-                method="GET"
-                name="f"
-              >
-                <input type="text" name="q" />
-                <input type="submit" value="Search...!" />
-              </form>
-            </fieldset>
-          </td>
-          <td align="Right">
-            <fieldset>
-              <legend>DuckDuckGo</legend>
-              <form name="x" method="GET" action="https://duckduckgo.com/">
-                <input type="text" name="q" />
-                <input type="submit" value="Search...!" />
-              </form>
-            </fieldset>
-          </td>
-        </tr>
-      </table>
-      <button type="button" onclick="f1()" id="D0" style="display: block;">
-        Enable Dark Mode
-      </button>
-      <button type="button" onclick="f2()" id="D1" style="display: none;">
-        Disable Dark Mode
-      </button>
-    </center>
-  </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Description for Search Engine -->
+    <meta name="description" content="This is Ujjwal Kumar's Personal Website!">
+    <!-- Refresh every 60sec 
+    <meta http-equiv="refresh" content="60"> -->
+    <!-- To be displayed in TitelBar/Tab -->
+    <title>UjjwalKr - Personal Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Noto+Sans+JP&family=Sacramento&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="top_div">
+        <img src="img/cloud.png" alt="cloud_top" class="cloud_top">
+        <!-- Level 1 Heading using <h1>tag -->
+        <h1>I'm Ujjwal.</h1>
+        <p class="sub_heading1">
+            <em><strong> Student </strong> @ GNIOT, Gr Noida</em>
+        </p>
+        <img src="img/cloud.png" alt="cloud_bottom" class="cloud_bottom">
+        <img src="img/mountain.png" alt="mountain" class="mountain">
+    </div>
+    <div class="middle_div">
+        <hr>
+        <div class="profile">
+            <img src="img/me.svg" alt="pic" width="35%">
+            <h2>Hello.</h2>
+            <p>Lorem ipsum dolor sit amet, vitae volutpat, dui conubia, dolor urna. Non auctor, montes nulla distinctio.</p>
+          </div>
+          <hr>
+          <div class="skills">
+            <h2>My Skills.</h2>
+            <div class="skill-row">
+              <img class="" src="img/me-dev.svg" alt="" width="30%">
+              <h3>Lorem & Ipsum</h3>
+              <p>Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc urna lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
+            </div>
+            <div class="skill-row">
+              <img class="" src="img/computer.png" alt="" width="20%">
+              <h3>Lorem Ipsum Dolor</h3>
+              <p>Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.</p>
+            </div>
+          </div>
+          <hr>
+          <div class="contact-me">
+            <h2>Get In Touch</h2>
+            <h3>Lorem ipsum dolor sit amet, non elit.</h3>
+            <p>Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
+            <h3><a href="contact.html">
+                Contact Me
+            </a></h3>
+          </div>
+        <hr>
+    </div>
+    <div class="bottom_div">
+        <h2>More About Me</h2>
+              <img class="" src="img/chillies.png" alt="" width="20%">
+              <h3>Education</h3>
+                <ul class="edu">
+                <li><a href="https://en.wikipedia.org/wiki/Madonna_English_School" target="_blank" rel="noopener noreferrer">
+                        Maddona English School
+                    </a></li>
+                    <li><a href="https://rsvncc.org/" target="_blank" rel="noopener noreferrer">
+                        Swami Vivekanand Coaching Center
+                    </a></li>
+                    <li><a href="https://www.sqoolz.com/school/Lucent-International-School" target="_blank" rel="noopener noreferrer">
+                        Lucent International School
+                    </a></li>
+                    <li><a href="http://woodbinemodernschool.com/" target="_blank" rel="noopener noreferrer">
+                        Woodbine Modern School
+                    </a></li>
+                    <li><a href="https://www.gniotgroup.edu.in/" target="_blank" rel="noopener noreferrer">
+                        Greater Noida Institute of Technology
+                    </a></li></ul>
+                    <h3>Skills</h3>
+                <center><table cellspacing="10" class="skills-table" border="1">
+                    <tr>
+                    <td><table cellspacing="10">
+                        <tr>
+                            <td>Web Development</td>
+                            <td>⭐⭐⭐⭐⭐</td>
+                        </tr>
+                        <tr>
+                            <td>C Programming</td>
+                            <td>⭐⭐⭐⭐</td>
+                        </tr>
+                    </table></td>
+                    <td><table cellspacing="10">
+                        <tr>
+                            <td>Python Programming</td>
+                            <td>⭐⭐⭐</td>
+                        </tr>
+                        <tr>
+                            <td>C++ Programming</td>
+                            <td>⭐⭐</td>
+                        </tr>
+                    </table></td>
+                    </tr>
+                </table></center>
+                <h3><a href="hobbies.html">
+                    Hobbies
+                </a></h3>
+        <hr>
+        <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+        <a class="footer-link" href="https://twitter.com/">Twitter</a>
+        <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+        <p>© 2021 Ujjwal Kumar.</p>
+        <hr>
+    </div>
+</body>
 </html>
