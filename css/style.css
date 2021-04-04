@@ -1,0 +1,138 @@
+/*
+font-family: 'Merriweather', serif;
+font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Sacramento', cursive;
+*/
+body {
+    font-family: 'Merriweather', serif;
+    font-size: 1rem;
+    line-height: 2;
+    margin: 0px;
+    text-align: center;
+}
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-top-color: lightgrey;
+    border-top-width: 5px;
+    clear: both;
+    width: 5%;
+    padding: 1%;
+}
+h1 {
+    color: #4ab19a;
+    font-family: 'Sacramento', cursive;
+    font-size: 100px;
+    margin: 1.25rem;
+}
+h2, h3 {
+    color: #11999E;
+    font-family: 'Noto Sans JP', sans-serif;
+    margin: 0px;
+}
+a {
+    color: #11999E;
+    font-size: 1rem;
+    padding: 30px;
+}
+table {
+    border: solid;
+    border-radius: 20px;
+    border-color: #11999E;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.nav-bar {
+    background-color: #EAF6F6;
+    position: fixed;
+    right: 0;
+    display: block;
+    text-align: right;
+    width: 100%;
+    padding: 10px;
+}
+.top_div {
+    background-color: #EAF6F6;
+    padding-top: 50px;
+    position: relative;
+}
+.middle_div {
+    height: auto;
+    padding: 20px;
+    width: auto;
+}
+.bottom_div {
+    background-color: #66BFBF;
+    color: #EAF6F6;
+    font-size: 0.8rem;
+    height: auto;
+    padding: 20px;
+    width: auto;
+}
+.sub_heading1 {
+    color: #4ab19a;
+    font-size: 20px;
+    font-weight: normal;
+}
+.cloud_top {
+    position: absolute;
+    right: 10%;
+}
+.cloud_bottom {
+    position: absolute;
+    left: 20%;
+}
+.mountain {
+    position: relative;
+    bottom: 0;
+    width: 50%;
+}
+.profile-div {
+    margin: 0 auto;
+    max-width: 460px;
+}
+.skill-row1 {
+    margin: 50px auto 0 auto;
+    text-align: left;
+    width: 50%;
+}
+.skill-row2 {
+    margin: 0px auto 50px auto;
+    text-align: left;
+    width: 50%;
+}
+.skill-img1 {
+    float: left;
+    margin-right: 50px;
+    width: 25%;
+}
+.skill-img2 {
+    float: right;
+    margin-left: 50px;
+    width: 50%;
+}
+.contact-me {
+    line-height: 3;
+    margin: 0 auto;
+    max-width: 460px;
+}
+.contact-btn {
+    background-color: #4ab19a;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-family: 'Noto Sans JP', sans-serif;;
+    font-weight: normal;
+    font-size: 1.2rem;
+    width: 150px;
+    height: 30px;
+}
+.prof-pic {
+    max-width: 150px;
+}
+.prof-pic-nav {
+    padding-right: 20px;
+    padding-left: 20px;
+    max-width: 25px;
+}
